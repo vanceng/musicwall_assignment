@@ -1,0 +1,8 @@
+<% @musics.each do |music| %>
+  <div class="music">
+    <h3><%= music.title %> <small>(by: <%= music.artist %>)</small></h3>
+    <p>
+      <%= music.url %>
+    </p>
+  </div>
+<% end %>
